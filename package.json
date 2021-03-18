@@ -1,0 +1,15 @@
+{
+  "name": "excercisetc_modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-chrome": "testcafe chrome ./testing/ --reporter json"
+  },
+  "author": "Julia Martínez Chávez",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe-reporter-json": "^2.2.0"
+  }
+}
